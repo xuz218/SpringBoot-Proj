@@ -1,1 +1,9 @@
-
+spring:
+  security:
+    jwt:
+      key: xiyanhua125
+      expire: 7
+  data:
+    redis:
+      host: localhost
+      port: 6379
