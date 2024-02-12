@@ -1,0 +1,23 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 985936628@qq.com
+    password: aljmwxjiprwxbbig
+    port: 587
+    default-encoding: UTF-8
+  rabbitmq:
+    addresses: localhost
+    username: guest
+    password: guest
+    virtual-host: /
+  security:
+    filter:
+      order: -100
+    jwt:
+      key: xiyanhua125
+      expire: 7
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_account
+    username: root
+    password: xuziang1225
+    driver-class-name: com.mysql.cj.jdbc.Driver
