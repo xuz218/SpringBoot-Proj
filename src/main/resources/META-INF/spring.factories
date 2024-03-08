@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.com.seckill.redis.repository.RedisCacheConfig,cn.com.seckill.redis.repository.RedissonProperties,cn.com.seckill.redis.repository.RedissonAutoConfiguration
